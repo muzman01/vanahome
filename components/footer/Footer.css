@@ -1,0 +1,34 @@
+@font-face {
+    font-family: KGHAPPYSolid;
+    src: url("../../public/fonts/KGHAPPYSolid.ttf");
+  }
+.faqlink {
+    margin-top: 50px;
+}
+.faqlink h1 {
+  color: white;
+  font-family: "KGHAPPYSolid";
+  margin-left: -150px;
+  position: absolute;
+}
+.faqlink {
+    background-color: #1b0a32;
+}
+@media (max-width: 1000px) {
+  .faqlink h1 {
+    color: white;
+    font-family: "KGHAPPYSolid";
+    margin-left: -120px;
+    position: absolute;
+  }
+}
+@media (max-width: 700px) {
+  .faqlink h1 {
+    color: white;
+    font-family: "KGHAPPYSolid";
+    margin-left: 50px;
+    margin-top: -60px;
+    position: absolute;
+    
+  }
+}

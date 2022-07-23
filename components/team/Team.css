@@ -1,0 +1,104 @@
+@font-face {
+  font-family: KGHAPPYSolid;
+  src: url("../../public/fonts/KGHAPPYSolid.ttf");
+}
+.team {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='1810px' height='766px'%3E%3Cpath fill-rule='evenodd' opacity='0.4' fill='rgb(152, 67, 129)' d='M33.427,45.109 L1768.882,0.294 C1792.114,0.305 1810.384,16.629 1809.634,38.88 L1785.461,729.590 C1784.751,749.909 1765.872,766.23 1743.345,765.613 L55.670,734.809 C37.358,734.475 22.48,719.406 21.435,701.126 L0.631,80.767 C0.12,61.569 14.652,45.594 33.427,45.109 Z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  border-radius: 50px;
+}
+.title {
+  padding: 40px !important;
+  color: white;
+  margin: auto;
+  margin-left: 39% !important;
+  margin-bottom: 50px;
+  font-family: "KGHAPPYSolid";
+}
+.line2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  margin-left: 50%;
+  padding-bottom: 500px !important;
+  padding-left: 10px !important;
+}
+.img {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-left: 120px;
+  padding-left: 10px !important;
+  padding-bottom: 100px !important;
+}
+
+@media (max-width: 1000px) {
+  .team {
+    width: 100%;
+    background-color: #7c3469;
+    height: 100%;
+
+    border-radius: 40px;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;
+  }
+  .img {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    padding-left: 10px !important;
+    padding-bottom: 100px !important;
+  }
+  .title {
+    padding: 40px !important;
+    color: white;
+    margin: auto;
+    margin-left: 30% !important;
+    margin-bottom: 50px;
+    font-family: "KGHAPPYSolid";
+  }
+}
+@media (max-width: 700px) {
+  .img {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    padding-left: 10px !important;
+    padding-bottom: 100px !important;
+  }
+}
+@media (max-width: 415px) {
+  .ttTeam {
+    padding: 40px !important;
+    color: white;
+    margin: auto;
+    margin-left: 22% !important;
+    margin-bottom: 50px;
+    font-family: "KGHAPPYSolid";
+    width: 100px;
+
+  }
+  .img {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    padding-left: 10px !important;
+    padding-bottom: 100px !important;
+  }
+  .team {
+    width: 100%;
+    background-color: #7c3469;
+    height: 100%;
+
+    border-radius: 40px;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;
+  }
+}

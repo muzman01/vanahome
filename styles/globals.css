@@ -1,0 +1,998 @@
+@font-face {
+  font-family: kghappy;
+  src: url("../public/fonts/KGHAPPY.ttf");
+}
+
+.BACKGROUND {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../public/images/layer22.png"),
+    url("../public/images/layer23.png"), url("../public/images/ltop.png"),
+    url("../public/images/ltop.png"), url("../public/images/layerrigth2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 1012px, 100% 1012px, 100% 1012px, 100% 1012px;
+  background-position: left 2000px, left 3400px, right 1400px, right 800px,
+    right 2400px;
+
+  width: 100%;
+  /* align-items: center;
+  justify-content: center; */
+
+  height: 7204px;
+  z-index: 12;
+  background-color: #1b0a32;
+  overflow: hidden;
+}
+html{
+  background-color: #1b0a32;
+}
+
+
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+.containerb {
+  margin: 0 auto;
+  width: 100%;
+  margin-left: 15% !important;
+}
+.containerroad {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  /* background-color: orangered; */
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: #fff;
+ 
+
+}
+
+/* @keyframes animate {
+  0%,
+  100% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253451/avabikes/1_lx2o4b.jpg);
+  }
+  9% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253450/avabikes/11_n5u5eu.jpg);
+  }
+  10% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253450/avabikes/11_n5u5eu.jpg);
+  }
+  11% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253450/avabikes/11_n5u5eu.jpg);
+  }
+  12% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253450/avabikes/11_n5u5eu.jpg);
+  }
+  13% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253450/avabikes/11_n5u5eu.jpg);
+  }
+  14% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253450/avabikes/11_n5u5eu.jpg);
+  }
+  15% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253450/avabikes/11_n5u5eu.jpg);
+  }
+  16% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253450/avabikes/11_n5u5eu.jpg);
+  }
+  17% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253450/avabikes/11_n5u5eu.jpg);
+  }
+  18% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253450/avabikes/12_hbkudt.jpg);
+  }
+  19% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253450/avabikes/12_hbkudt.jpg);
+  }
+  20% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253450/avabikes/12_hbkudt.jpg);
+  }
+  21% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253450/avabikes/12_hbkudt.jpg);
+  }
+  22% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253450/avabikes/12_hbkudt.jpg);
+  }
+  23% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253450/avabikes/12_hbkudt.jpg);
+  }
+  24% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253450/avabikes/12_hbkudt.jpg);
+  }
+  25% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253450/avabikes/12_hbkudt.jpg);
+  }
+  26% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253450/avabikes/12_hbkudt.jpg);
+  }
+  27% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253449/avabikes/7_qgilcs.jpg);
+  }
+  28% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253449/avabikes/7_qgilcs.jpg);
+  }
+  29% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253449/avabikes/7_qgilcs.jpg);
+  }
+  30% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253449/avabikes/7_qgilcs.jpg);
+  }
+  31% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253449/avabikes/7_qgilcs.jpg);
+  }
+  32% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253449/avabikes/7_qgilcs.jpg);
+  }
+  33% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253449/avabikes/7_qgilcs.jpg);
+  }
+  34% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253449/avabikes/7_qgilcs.jpg);
+  }
+  35% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253449/avabikes/7_qgilcs.jpg);
+  }
+  36% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253449/avabikes/8_wwvvns.jpg);
+  }
+  37% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253449/avabikes/8_wwvvns.jpg);
+  }
+  38% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253449/avabikes/8_wwvvns.jpg);
+  }
+  39% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253449/avabikes/8_wwvvns.jpg);
+  }
+  40% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253449/avabikes/8_wwvvns.jpg);
+  }
+  41% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253449/avabikes/8_wwvvns.jpg);
+  }
+  42% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253449/avabikes/8_wwvvns.jpg);
+  }
+  43% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253449/avabikes/8_wwvvns.jpg);
+  }
+  44% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253449/avabikes/8_wwvvns.jpg);
+  }
+  45% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/10_qpvk2e.jpg);
+  }
+  46% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/10_qpvk2e.jpg);
+  }
+  47% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/10_qpvk2e.jpg);
+  }
+  48% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/10_qpvk2e.jpg);
+  }
+  49% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/10_qpvk2e.jpg);
+  }
+  50% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/10_qpvk2e.jpg);
+  }
+  51% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/10_qpvk2e.jpg);
+  }
+  52% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/10_qpvk2e.jpg);
+  }
+  53% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/10_qpvk2e.jpg);
+  }
+  54% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/6_lyk7m0.jpg);
+  }
+  55% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/6_lyk7m0.jpg);
+  }
+  56% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/6_lyk7m0.jpg);
+  }
+  57% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/6_lyk7m0.jpg);
+  }
+  58% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/6_lyk7m0.jpg);
+  }
+  59% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/6_lyk7m0.jpg);
+  }
+  60% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/6_lyk7m0.jpg);
+  }
+  61% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/6_lyk7m0.jpg);
+  }
+  62% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/6_lyk7m0.jpg);
+  }
+  63% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/9_qjzwom.jpg);
+  }
+  64% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/9_qjzwom.jpg);
+  }
+  65% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/9_qjzwom.jpg);
+  }
+  66% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/9_qjzwom.jpg);
+  }
+  67% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/9_qjzwom.jpg);
+  }
+  68% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/9_qjzwom.jpg);
+  }
+  69% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/9_qjzwom.jpg);
+  }
+  70% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/9_qjzwom.jpg);
+  }
+  71% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/9_qjzwom.jpg);
+  }
+  72% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253446/avabikes/3_dsh2pr.jpg);
+  }
+  73% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253446/avabikes/3_dsh2pr.jpg);
+  }
+  74% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253446/avabikes/3_dsh2pr.jpg);
+  }
+  75% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253446/avabikes/3_dsh2pr.jpg);
+  }
+  76% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253446/avabikes/3_dsh2pr.jpg);
+  }
+  77% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253446/avabikes/3_dsh2pr.jpg);
+  }
+  78% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253446/avabikes/3_dsh2pr.jpg);
+  }
+  79% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253446/avabikes/3_dsh2pr.jpg);
+  }
+  80% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253446/avabikes/3_dsh2pr.jpg);
+  }
+  81% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253446/avabikes/2_ltnjlp.jpg);
+  }
+   82% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253446/avabikes/2_ltnjlp.jpg);
+  }
+  83% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253446/avabikes/2_ltnjlp.jpg);
+  }
+   84% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253446/avabikes/2_ltnjlp.jpg);
+  }
+  85% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253446/avabikes/2_ltnjlp.jpg);
+  }
+  86% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253446/avabikes/2_ltnjlp.jpg);
+  }
+  87% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253446/avabikes/2_ltnjlp.jpg);
+  }
+  88% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253446/avabikes/2_ltnjlp.jpg);
+  }
+  89% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253446/avabikes/2_ltnjlp.jpg);
+  }
+  90% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253445/avabikes/5_eotbk5.jpg);
+  }
+  91% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253445/avabikes/5_eotbk5.jpg);
+  }
+  92% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253445/avabikes/5_eotbk5.jpg);
+  }
+  93% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253445/avabikes/5_eotbk5.jpg);
+  }
+  94% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253445/avabikes/5_eotbk5.jpg);
+  }
+  95% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253445/avabikes/5_eotbk5.jpg);
+  }
+  96% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253445/avabikes/5_eotbk5.jpg);
+  }
+  97% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253445/avabikes/5_eotbk5.jpg);
+  }
+  98% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253445/avabikes/5_eotbk5.jpg);
+  }
+  99% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253445/avabikes/4_sbngnb.jpg);
+  }
+} */
+
+nav {
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+}
+
+.header-container {
+  align-items: center;
+  width: 100%;
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.header-container-inner {
+  margin-top: 150px !important;
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 52px;
+  margin-bottom: 32px;
+  line-height: 1.05;
+}
+
+p {
+  font-size: 30px;
+  line-height: 1.1;
+
+  text-align: center;
+  margin-top: 40px !important;
+}
+
+h2 {
+  font-size: 44px;
+  margin-bottom: 48px;
+}
+
+section {
+  padding: 96px 0;
+  left: 50%;
+}
+@media (max-width: 1200px) {
+  .BACKGROUND{
+    height: 6500px;
+  }
+  header {
+    /* background-color: orangered; */
+    height: 100vh;
+    position: relative;
+
+
+    color: #fff;
+    object-fit: cover;
+    width: 100% !important;
+    animation: none;
+  }
+  .containerroad {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .header-container {
+    align-items: center;
+    width: 100% !important;
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+  }
+  nav {
+    font-size: 20px;
+
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+  }
+  .container {
+    margin: 0 auto;
+    width: 100% !important;
+  }
+  .header-container {
+    align-items: center;
+    width: 800px !important;
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+  }
+}
+@media (max-width: 1000px) {
+  header {
+    /* background-color: orangered; */
+    height: 100vh;
+    position: relative;
+
+ 
+
+    color: #fff;
+    object-fit: cover;
+    width: 100% !important;
+  }
+  .header-container {
+    align-items: center;
+    width: 100% !important;
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+  }
+  nav {
+    font-size: 20px;
+
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+  }
+  .container {
+    margin: 0 auto;
+    width: 100% !important;
+  }
+  .header-container {
+    align-items: center;
+    width: 800px !important;
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+  }
+  .containerroad {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 700px) {
+  .containerroad {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .BACKGROUND {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../public/images/layer22.png"),
+      url("../public/images/layer23.png"), url("../public/images/ltop.png"),
+      url("../public/images/ltop.png"), url("../public/images/layerrigth2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 1012px, 100% 1012px, 100% 1012px, 100% 1012px;
+    background-position: left 2000px, left 3400px, right 1400px, right 800px,
+      right 2400px;
+  
+    width: 100%;
+    /* align-items: center;
+    justify-content: center; */
+  
+    height: 7644px;
+    z-index: 12;
+    background-color: #1b0a32;
+    overflow: hidden;
+  }
+  header {
+    /* background-color: orangered; */
+    height: 100vh;
+    position: relative;
+
+
+    object-fit: cover;
+    color: #fff;
+    width: 100% !important;
+  }
+  .header-container {
+    align-items: center;
+    width: 100% !important;
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+  }
+  nav {
+    font-size: 20px;
+
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+  }
+
+  .container {
+    margin: 0 auto;
+    width: 100% !important;
+  }
+  .header-container {
+    align-items: center;
+    width: 100% !important;
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+  }
+}
+@media (max-width: 415px) {
+  .containerroad {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .BACKGROUND {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 100% !important;
+    height: 7794px;
+    z-index: 12;
+    background-color: #1b0a32;
+    
+  }
+  header {
+    /* background-color: orangered; */
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-clip: border-box;
+
+    object-fit: cover;
+    color: #fff;
+  }
+  .header-container {
+    align-items: center;
+    width: 100% !important;
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+  }
+  nav {
+    font-size: 20px;
+
+    width: 60% !important;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+  }
+  .container {
+    margin: 0 auto;
+    width: 100% !important;
+  }
+  .header-container {
+    align-items: center;
+    width: 100% !important;
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+  }
+  .header-container-inner {
+    margin-top: 150px !important;
+    width: 100%;
+    margin: auto;
+  }
+  .header-container-inner img {
+    height: 150px !important;
+    
+    width: 400px !important;
+  }
+}

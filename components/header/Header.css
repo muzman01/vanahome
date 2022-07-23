@@ -1,0 +1,815 @@
+@font-face {
+  font-family: KGHAPPYSolid;
+  src: url("../../public/fonts/KGHAPPYSolid.ttf");
+}
+@font-face {
+  font-family: KGMissKindergarten;
+  src: url("../../public/fonts/KGMissKindergarten.ttf");
+}
+.HEADER {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 6344px;
+  z-index: 136;
+}
+.HEADER_TOP {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 135;
+}
+.Go_To_APP  {
+  font-size: 27px;
+  font-family: "KGHAPPYSolid";
+  color: rgb(255, 255, 255);
+  background-image: url(../../public/images/btn1.png);
+  line-height: 1.2;
+  text-align: center;
+  width: 283px;
+  height: 83px;
+  text-decoration: none;
+  z-index: 130;
+  padding-top: 25px;
+  text-decoration: none;
+  border-radius: 35px;
+}
+
+
+.go_to_app_button:hover  {
+  text-decoration: none;
+  border-radius: 35px;
+
+  background-image: url(../../public/images/btn2.png);
+  width: 283px;
+  height: 83px;
+  border: none;
+  color: rgb(255, 255, 255);
+}
+.go_to_app_button:active  {
+  text-decoration: none;
+  border-radius: 35px;
+
+  background-image: url(../../public/images/btn3.png);
+  width: 283px;
+  height: 83px;
+  border: none;
+  color: rgb(255, 255, 255);
+}
+.MINT  {
+  font-size: 27px;
+  font-family: "KGHAPPYSolid";
+  color: rgb(255, 255, 255);
+  background-image: url(../../public/images/btn1.png);
+  line-height: 1.2;
+  text-align: center;
+  width: 283px;
+  height: 83px;
+  text-decoration: none;
+  z-index: 130;
+  padding-top: 25px;
+  text-decoration: none;
+  border-radius: 35px;
+}
+.mint_button span {
+  text-decoration: none;
+  border-radius: 35px;
+  margin-top: 20px !important;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+}
+.MINT:hover {
+  text-decoration: none;
+  border-radius: 35px;
+
+  background-image: url(../../public/images/btn2.png);
+  width: 283px;
+  height: 83px;
+  border: none;
+  color: rgb(255, 255, 255);
+}
+.MINT:active {
+  text-decoration: none;
+  border-radius: 35px;
+
+  background-image: url(../../public/images/btn3.png);
+  width: 283px;
+  height: 83px;
+  border: none;
+  color: rgb(255, 255, 255);
+}
+.TEXT {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 126;
+}
+
+.Meet_the_bikes {
+  background-image: url("../../public/images/Meet\ the\ bikes.png");
+  position: absolute;
+
+  top: 386px;
+  margin: auto;
+  width: 956px;
+  height: 272px;
+  display: block;
+  z-index: 99;
+}
+
+.arrow {
+  background-image: url("../../public/images/arrow.png");
+  position: absolute;
+  left: 50%;
+  top: 600px;
+  width: 23px;
+  height: 23px;
+  z-index: 119;
+}
+.arrowText {
+  position: absolute;
+  left: 50%;
+  top: 900px;
+  width: 100px;
+  height: 50px;
+  z-index: 119;
+  color: wheat;
+}
+.arrowText span {
+  font-size: 30px;
+  margin-left: -20px;
+}
+.SCROLL_copy {
+  background-image: url("../../public/images/SCROLL copy.png");
+  position: absolute;
+  left: 915px;
+  top: 981px;
+  width: 88px;
+  height: 15px;
+  z-index: 118;
+}
+.main_page_gif_high {
+  background-image: url("../../public/images/main-page-gif_high.png");
+  opacity: 1;
+  position: absolute;
+  top: -74px;
+  width: 100%;
+  height: 1154px;
+  background-repeat: no-repeat;
+  z-index: 116;
+}
+.Rectangle_6 {
+  background-color: rgb(28, 10, 51);
+  position: absolute;
+  left: 0px;
+  top: -7px;
+  width: 100%;
+  height: -100px;
+  z-index: 114;
+}
+.scroll p {
+  margin-top: 110px !important;
+
+  font-family: "KGMissKindergarten";
+}
+
+.header_text {
+  font-family: "KGMissKindergarten";
+}
+.down-arrow {
+  position: absolute;
+  top: calc(100% - 14px);
+  left: calc(50% - 14px);
+  width: 0;
+  height: 31px;
+  border: 2px solid;
+  border-radius: 2px;
+  animation: jumpInfinite 1.5s infinite;
+  color: white;
+}
+
+.down-arrow:after {
+  content: " ";
+  position: absolute;
+  top: 12px;
+  left: -10px;
+  width: 16px;
+  height: 16px;
+  border-bottom: 4px solid;
+  border-right: 4px solid;
+  border-radius: 4px;
+  transform: rotateZ(45deg);
+  color: white;
+}
+
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  .go_to_app_button  {
+    border-radius: 35px;
+    background: linear-gradient(
+        90deg,
+        rgb(206, 62, 149) 0%,
+        rgb(238, 98, 182) 100%
+      ),
+      linear-gradient(90deg, rgb(206, 62, 149) 0%, rgb(238, 98, 182) 100%),
+      linear-gradient(90deg, rgb(206, 62, 149) 0%, rgb(238, 98, 182) 100%);
+
+    box-shadow: 0px 24px 24px 0px rgba(0, 0, 0, 0.15) !important;
+
+    width: 150px;
+    height: 71px;
+    z-index: 132;
+  }
+  .MINT  {
+    font-size: 27px;
+    font-family: "KGHAPPYSolid";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    width: 150px;
+    height: 71px;
+    text-decoration: none;
+    background-image: none;
+    z-index: 130;
+  }
+  .mint_button  {
+    text-decoration: none;
+    border-radius: 35px;
+    background: linear-gradient(
+        90deg,
+        rgba(206, 62, 149),
+        rgba(238, 98, 182) 100%
+      ),
+      linear-gradient(90deg, rgba(206, 62, 149), rgba(238, 98, 182) 100%),
+      linear-gradient(90deg, rgba(206, 62, 149), rgba(238, 98, 182) 100%);
+
+    box-shadow: 0px 24px 24px 0px rgba(0, 0, 0, 0.15);
+    width: 150px !important;
+    height: 71px !important;
+    border: none;
+  }
+  .main_page_gif_high {
+    background-image: url("../../public/images/main-page-gif_high.png");
+    opacity: 1;
+    position: absolute;
+    width: 100%;
+    top: -74px;
+    width: 100%;
+    height: 1154px;
+    background-repeat: no-repeat;
+    z-index: 116;
+  }
+  .down-arrow {
+    position: absolute;
+    top: calc(100% - 14px);
+    left: calc(50% - 14px);
+    width: 0;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 2px;
+    animation: jumpInfinite 1.5s infinite;
+    color: white;
+  }
+
+  .down-arrow:after {
+    content: " ";
+    position: absolute;
+    top: 12px;
+    left: -10px;
+    width: 16px;
+    height: 16px;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    border-radius: 4px;
+    transform: rotateZ(45deg);
+    color: white;
+  }
+
+  @keyframes jumpInfinite {
+    0% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: 20px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .go_to_app_button  {
+    border-radius: 35px;
+    background: linear-gradient(
+        90deg,
+        rgb(206, 62, 149) 0%,
+        rgb(238, 98, 182) 100%
+      ),
+      linear-gradient(90deg, rgb(206, 62, 149) 0%, rgb(238, 98, 182) 100%),
+      linear-gradient(90deg, rgb(206, 62, 149) 0%, rgb(238, 98, 182) 100%);
+
+    box-shadow: 0px 24px 24px 0px rgba(0, 0, 0, 0.15) !important;
+
+    width: 150px;
+    height: 71px;
+    z-index: 132;
+  }
+  .btnapp{
+    font-size: 20px;
+  }
+  .MINT  {
+    text-decoration: none;
+    border-radius: 35px;
+    background: linear-gradient(
+        90deg,
+        rgba(206, 62, 149),
+        rgba(238, 98, 182) 100%
+      ),
+      linear-gradient(90deg, rgba(206, 62, 149), rgba(238, 98, 182) 100%),
+      linear-gradient(90deg, rgba(206, 62, 149), rgba(238, 98, 182) 100%);
+
+    box-shadow: 0px 24px 24px 0px rgba(0, 0, 0, 0.15);
+    width: 150px !important;
+    height: 71px !important;
+    border: none;
+  }
+  .MINT:hover  {
+    text-decoration: none;
+    border-radius: 35px;
+    background: linear-gradient(
+        90deg,
+        rgba(206, 62, 149),
+        rgba(238, 98, 182) 100%
+      ),
+      linear-gradient(90deg, rgba(206, 62, 149), rgba(238, 98, 182) 100%),
+      linear-gradient(90deg, rgba(206, 62, 149), rgba(238, 98, 182) 100%);
+
+    box-shadow: 0px 24px 24px 0px rgba(0, 0, 0, 0.15);
+    width: 150px !important;
+    height: 71px !important;
+    border: none;
+  }
+  .main_page_gif_high {
+    background-image: url("../../public/images/main-page-gif_high.png");
+    opacity: 0.6;
+    position: absolute;
+    width: 100%;
+    top: -74px;
+    width: 100%;
+    height: 1154px;
+    background-repeat: no-repeat;
+    z-index: 116;
+  }
+  .down-arrow {
+    position: absolute;
+    top: calc(100% - 14px);
+    left: calc(50% - 14px);
+    width: 0;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 2px;
+    animation: jumpInfinite 1.5s infinite;
+    color: white;
+  }
+
+  .down-arrow:after {
+    content: " ";
+    position: absolute;
+    top: 12px;
+    left: -10px;
+    width: 16px;
+    height: 16px;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    border-radius: 4px;
+    transform: rotateZ(45deg);
+    color: white;
+  }
+
+  @keyframes jumpInfinite {
+    0% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: 20px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+}
+@media (max-width: 700px) {
+  .btnmint{
+    font-size: 20px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 360px;
+  }
+  .go_to_app_button  {
+    border-radius: 35px;
+    background: linear-gradient(
+        90deg,
+        rgb(206, 62, 149) 0%,
+        rgb(238, 98, 182) 100%
+      ),
+      linear-gradient(90deg, rgb(206, 62, 149) 0%, rgb(238, 98, 182) 100%),
+      linear-gradient(90deg, rgb(206, 62, 149) 0%, rgb(238, 98, 182) 100%);
+
+    box-shadow: 0px 24px 24px 0px rgba(0, 0, 0, 0.15) !important;
+
+    width: 150px;
+    height: 71px;
+    z-index: 132;
+  }
+  .MINT button {
+    font-size: 27px;
+    font-family: "KGHAPPYSolid";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    width: 150px;
+    height: 71px;
+    text-decoration: none;
+    z-index: 130;
+  }
+  .mint_button button {
+    text-decoration: none;
+    border-radius: 35px;
+    background: linear-gradient(
+        90deg,
+        rgba(206, 62, 149),
+        rgba(238, 98, 182) 100%
+      ),
+      linear-gradient(90deg, rgba(206, 62, 149), rgba(238, 98, 182) 100%),
+      linear-gradient(90deg, rgba(206, 62, 149), rgba(238, 98, 182) 100%);
+
+    box-shadow: 0px 24px 24px 0px rgba(0, 0, 0, 0.15);
+    width: 150px !important;
+    height: 71px !important;
+    border: none;
+  }
+  .main_page_gif_high {
+    background-image: url("../../public/images/main-page-gif_high.png");
+    opacity: 0.6;
+    position: absolute;
+    width: 100%;
+    top: -74px;
+    width: 100%;
+    height: 1154px;
+    background-repeat: no-repeat;
+    z-index: 116;
+  }
+  .down-arrow {
+    position: absolute;
+    top: calc(100% - 14px);
+    left: calc(50% - 14px);
+    width: 0;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 2px;
+    animation: jumpInfinite 1.5s infinite;
+    color: white;
+  }
+
+  .down-arrow:after {
+    content: " ";
+    position: absolute;
+    top: 12px;
+    left: -10px;
+    width: 16px;
+    height: 16px;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    border-radius: 4px;
+    transform: rotateZ(45deg);
+    color: white;
+  }
+
+  @keyframes jumpInfinite {
+    0% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: 20px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+}
+@media (max-width: 560px) {
+  .btnmint{
+    font-size: 20px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 300px;
+  }
+  .go_to_app_button  {
+    border-radius: 35px;
+    background: linear-gradient(
+        90deg,
+        rgb(206, 62, 149) 0%,
+        rgb(238, 98, 182) 100%
+      ),
+      linear-gradient(90deg, rgb(206, 62, 149) 0%, rgb(238, 98, 182) 100%),
+      linear-gradient(90deg, rgb(206, 62, 149) 0%, rgb(238, 98, 182) 100%);
+
+    box-shadow: 0px 24px 24px 0px rgba(0, 0, 0, 0.15) !important;
+
+    width: 150px;
+    height: 71px;
+    z-index: 132;
+  }
+  .MINT button {
+    font-size: 27px;
+    font-family: "KGHAPPYSolid";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    width: 150px;
+    height: 71px;
+    text-decoration: none;
+    z-index: 130;
+  }
+  .mint_button button {
+    text-decoration: none;
+    border-radius: 35px;
+    background: linear-gradient(
+        90deg,
+        rgba(206, 62, 149),
+        rgba(238, 98, 182) 100%
+      ),
+      linear-gradient(90deg, rgba(206, 62, 149), rgba(238, 98, 182) 100%),
+      linear-gradient(90deg, rgba(206, 62, 149), rgba(238, 98, 182) 100%);
+
+    box-shadow: 0px 24px 24px 0px rgba(0, 0, 0, 0.15);
+    width: 150px !important;
+    height: 71px !important;
+    border: none;
+  }
+  .main_page_gif_high {
+    background-image: url("../../public/images/main-page-gif_high.png");
+    opacity: 0.6;
+    position: absolute;
+    width: 100%;
+    top: -74px;
+    width: 100%;
+    height: 1154px;
+    background-repeat: no-repeat;
+    z-index: 116;
+  }
+  .down-arrow {
+    position: absolute;
+    top: calc(100% - 14px);
+    left: calc(50% - 14px);
+    width: 0;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 2px;
+    animation: jumpInfinite 1.5s infinite;
+    color: white;
+  }
+
+  .down-arrow:after {
+    content: " ";
+    position: absolute;
+    top: 12px;
+    left: -10px;
+    width: 16px;
+    height: 16px;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    border-radius: 4px;
+    transform: rotateZ(45deg);
+    color: white;
+  }
+
+  @keyframes jumpInfinite {
+    0% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: 20px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+}
+@media (max-width: 420px) {
+  .eader_text{
+    font-size: 12px;
+  }
+  .btnmint{
+    font-size: 20px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 210px;
+  }
+  .go_to_app_button  {
+    border-radius: 35px;
+    background: linear-gradient(
+        90deg,
+        rgb(206, 62, 149) 0%,
+        rgb(238, 98, 182) 100%
+      ),
+      linear-gradient(90deg, rgb(206, 62, 149) 0%, rgb(238, 98, 182) 100%),
+      linear-gradient(90deg, rgb(206, 62, 149) 0%, rgb(238, 98, 182) 100%);
+
+    box-shadow: 0px 24px 24px 0px rgba(0, 0, 0, 0.15) !important;
+
+    width: 150px;
+    height: 71px;
+    z-index: 132;
+  }
+  .MINT button {
+    font-size: 27px;
+    font-family: "KGHAPPYSolid";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    width: 150px;
+    height: 71px;
+    text-decoration: none;
+    z-index: 130;
+  }
+  .mint_button button {
+    text-decoration: none;
+    border-radius: 35px;
+    background: linear-gradient(
+        90deg,
+        rgba(206, 62, 149),
+        rgba(238, 98, 182) 100%
+      ),
+      linear-gradient(90deg, rgba(206, 62, 149), rgba(238, 98, 182) 100%),
+      linear-gradient(90deg, rgba(206, 62, 149), rgba(238, 98, 182) 100%);
+
+    box-shadow: 0px 24px 24px 0px rgba(0, 0, 0, 0.15);
+    width: 150px !important;
+    height: 71px !important;
+    border: none;
+  }
+  .main_page_gif_high {
+    background-image: url("../../public/images/main-page-gif_high.png");
+    opacity: 0.6;
+    position: absolute;
+    width: 100%;
+    top: -74px;
+    width: 100%;
+    background-size: cover;
+    height: 1154px;
+    background-repeat: no-repeat;
+    z-index: 116;
+  }
+  .down-arrow {
+    position: absolute;
+    top: calc(100% - 14px);
+    left: calc(50% - 14px);
+    width: 0;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 2px;
+    animation: jumpInfinite 1.5s infinite;
+    color: white;
+  }
+
+  .down-arrow:after {
+    content: " ";
+    position: absolute;
+    top: 12px;
+    left: -10px;
+    width: 16px;
+    height: 16px;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    border-radius: 4px;
+    transform: rotateZ(45deg);
+    color: white;
+  }
+
+  @keyframes jumpInfinite {
+    0% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: 20px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+}
+@media (max-width: 395px) {
+  .btnmint{
+    font-size: 20px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 220px;
+  }
+  .go_to_app_button  {
+    border-radius: 35px;
+    background: linear-gradient(
+        90deg,
+        rgb(206, 62, 149) 0%,
+        rgb(238, 98, 182) 100%
+      ),
+      linear-gradient(90deg, rgb(206, 62, 149) 0%, rgb(238, 98, 182) 100%),
+      linear-gradient(90deg, rgb(206, 62, 149) 0%, rgb(238, 98, 182) 100%);
+
+    box-shadow: 0px 24px 24px 0px rgba(0, 0, 0, 0.15) !important;
+
+    width: 150px;
+    height: 71px;
+    z-index: 132;
+  }
+  .MINT button {
+    font-size: 27px;
+    font-family: "KGHAPPYSolid";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    width: 150px;
+    height: 71px;
+    text-decoration: none;
+    z-index: 130;
+  }
+  .mint_button button {
+    text-decoration: none;
+    border-radius: 35px;
+    background: linear-gradient(
+        90deg,
+        rgba(206, 62, 149),
+        rgba(238, 98, 182) 100%
+      ),
+      linear-gradient(90deg, rgba(206, 62, 149), rgba(238, 98, 182) 100%),
+      linear-gradient(90deg, rgba(206, 62, 149), rgba(238, 98, 182) 100%);
+
+    box-shadow: 0px 24px 24px 0px rgba(0, 0, 0, 0.15);
+    width: 150px !important;
+    height: 71px !important;
+    border: none;
+  }
+  .main_page_gif_high {
+    background-image: url("../../public/images/main-page-gif_high.png");
+    opacity: 0.6;
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    top: -74px;
+    width: 100%;
+    height: 1154px;
+    background-repeat: no-repeat;
+    z-index: 116;
+  }
+  .down-arrow {
+    position: absolute;
+    top: calc(100% - 14px);
+    left: calc(50% - 14px);
+    width: 0;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 2px;
+    animation: jumpInfinite 1.5s infinite;
+    color: white;
+  }
+
+  .down-arrow:after {
+    content: " ";
+    position: absolute;
+    top: 12px;
+    left: -10px;
+    width: 16px;
+    height: 16px;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    border-radius: 4px;
+    transform: rotateZ(45deg);
+    color: white;
+  }
+
+  @keyframes jumpInfinite {
+    0% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: 20px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+}

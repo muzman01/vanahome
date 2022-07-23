@@ -1,0 +1,26 @@
+.AVA_BIKES_MAIN_PAGE {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 6344px;
+  z-index: 137;
+}
+.BACKGROUND {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 6344px;
+  z-index: 12;
+}
+.Layer_4 {
+  background-image: url("Layer 4.png");
+  opacity: 0.471;
+  position: absolute;
+  left: 408px;
+  top: 1674px;
+  width: 2819px;
+  height: 1937px;
+  z-index: 4;
+}
